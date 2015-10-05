@@ -18,6 +18,9 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.shell':
+  'date in full':
+    'prefix': 'date_in_full'
+    'body': "date '+%Y%m%d_%H%M%S'"
   'die* functions':
     'prefix': 'die_functions'
     'body': """
