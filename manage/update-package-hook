@@ -1,0 +1,25 @@
+#!/bin/bash
+
+cat > .git/hooks/post-commit <<END
+#!/bin/bash
+
+set -o pipefail
+
+if [[ ! -e manage/package-catalog ]]; then
+    echo "package-catalog does not exist; to fix, run:" >&2
+    echo "  ./manage/update-package-catalog" >&2
+	exit 1
+else
+    find packages -maxdepth 1 -mindepth 1 -type d -printf '%P\n' | \
+        diff --brief manage/package-catalog - >/dev/null
+    diffResult=$?
+    if [[ $diffResult -eq 1 ]]; then
+        echo "package-catalog needs updating; to fix, run:" >&2
+        echo "  ./manage/update-package-catalog" >&2
+    	exit 1
+    elif [[ $diffResult -ne 0 ]]; then
+        echo "error running find or diff: $diffResult" >&2
+        exit $diffResult
+    fi
+fi
+END
