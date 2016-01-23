@@ -16,7 +16,7 @@ needsUpdate () {
 if [[ ! -e manage/package-catalog ]]; then
     needsUpdate 'package-catalog does not exist'
 else
-    find packages -maxdepth 1 -mindepth 1 -type d -printf '%P\n' | \
+    find packages -maxdepth 1 -mindepth 1 -type d | cut -c 10- | \
         diff --brief manage/package-catalog - >/dev/null
     diffResult=$?
     if [[ $diffResult -eq 1 ]]; then
@@ -27,3 +27,5 @@ else
     fi
 fi
 END
+
+chmod a+x .git/hooks/post-commit
