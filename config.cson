@@ -1,23 +1,22 @@
 "*":
-  editor:
-    invisibles: {}
-    tabLength: 4
-    fontFamily: "\"Bitstream Vera Sans Mono\""
-    fontSize: 13
-    autoIndent: false
+  "color-picker":
+    preferredFormat: "HEX"
   core:
     themes: [
       "one-light-ui"
       "piatto-light"
     ]
+  editor:
+    autoIndent: false
+    fontFamily: "Bitstream Vera Sans Mono"
+    fontSize: 13
+    invisibles: {}
+    tabLength: 4
   "exception-reporting":
     userId: "3d88bf63-5f77-c3c9-30a1-210b421bd2b1"
-  welcome:
-    showOnStartup: false
-  "color-picker":
-    preferredFormat: "HEX"
-  tabs: {}
-  "atom-color-highlight": {}
+  hex: {}
   "highlight-selected":
     highlightBackground: true
-  pigments: {}
+    lightTheme: true
+  welcome:
+    showOnStartup: false
