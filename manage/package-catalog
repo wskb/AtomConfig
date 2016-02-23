@@ -6,6 +6,7 @@ hex
 highlight-selected
 language-asciidoc
 language-diff
+language-freemarker
 language-r
 piatto-light
 pigments
