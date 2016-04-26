@@ -11,6 +11,7 @@
     fontFamily: "Bitstream Vera Sans Mono"
     fontSize: 13
     invisibles: {}
+    softWrapAtPreferredLineLength: true
     tabLength: 4
   "exception-reporting":
     userId: "3d88bf63-5f77-c3c9-30a1-210b421bd2b1"
