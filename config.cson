@@ -11,6 +11,7 @@
     fontFamily: "Bitstream Vera Sans Mono"
     fontSize: 13
     invisibles: {}
+    showInvisibles: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
   "exception-reporting":

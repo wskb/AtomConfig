@@ -18,6 +18,18 @@
 # https://github.com/bevry/cson#what-is-cson
 
 '.source.shell':
+  'strict-skeleton':
+    'prefix': 'strict-skeleton'
+    'body': """#!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+set -o noclobber
+
+# capturing non-zero exit code (e.g. grep)
+# cat /tmp/doesnotexist && rc=$? || rc=$?
+"""
   'date in full':
     'prefix': 'date_in_full'
     'body': "date '+%Y%m%d_%H%M%S'"
