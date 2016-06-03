@@ -1,5 +1,6 @@
 asciidoc-preview
 atom-prettify
+atom-typescript
 color-picker
 day-after-tomorrow
 hex
@@ -8,6 +9,7 @@ language-asciidoc
 language-diff
 language-freemarker
 language-r
+linter
 piatto-light
 pigments
 regex-railroad-diagram
