@@ -2,7 +2,6 @@ asciidoc-preview
 atom-prettify
 atom-typescript
 color-picker
-day-after-tomorrow
 hex
 highlight-selected
 language-asciidoc
@@ -10,7 +9,6 @@ language-diff
 language-freemarker
 language-r
 linter
-piatto-light
 pigments
 regex-railroad-diagram
-tomorrow-syntax
+summerfruit-theme

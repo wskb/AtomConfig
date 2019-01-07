@@ -4,7 +4,7 @@
   core:
     themes: [
       "one-light-ui"
-      "piatto-light"
+      "summerfruit-theme"
     ]
   editor:
     autoIndent: false
