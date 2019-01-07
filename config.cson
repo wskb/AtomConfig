@@ -2,23 +2,22 @@
   "color-picker":
     preferredFormat: "HEX"
   core:
+    telemetryConsent: "limited"
     themes: [
       "one-light-ui"
       "summerfruit-theme"
     ]
+    uriHandlerRegistration: "always"
   editor:
     autoIndent: false
-    fontFamily: "Bitstream Vera Sans Mono"
+    fontFamily: "BitStream Vera Sans Mono, Menlo, Consolas, DejaVu Sans Mono, monospace"
     fontSize: 13
-    invisibles: {}
-    showInvisibles: true
-    softWrapAtPreferredLineLength: true
     tabLength: 4
   "exception-reporting":
-    userId: "3d88bf63-5f77-c3c9-30a1-210b421bd2b1"
-  hex: {}
+    userId: "4d007d4b-2923-43aa-ae60-a6f9b9d3eac5"
   "highlight-selected":
     highlightBackground: true
     lightTheme: true
+  "linter-ui-default": {}
   welcome:
     showOnStartup: false
