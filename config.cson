@@ -18,6 +18,7 @@
   "highlight-selected":
     highlightBackground: true
     lightTheme: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   welcome:
     showOnStartup: false
