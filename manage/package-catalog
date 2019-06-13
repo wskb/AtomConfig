@@ -4,14 +4,12 @@ atom-prettify
 atom-typescript
 busy-signal
 color-picker
-hex
 highlight-selected
 intentions
 language-asciidoc
 language-diff
 language-freemarker
 language-gherkin
-language-r
 linter
 linter-ui-default
 pigments
