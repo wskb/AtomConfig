@@ -1,0 +1,4 @@
+To work around errors with package retrieval due to a corporate MITM proxy,
+create the file .apmrc with the following content:
+
+strict-ssl=false
