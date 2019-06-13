@@ -1,9 +1,11 @@
 .atom-socket-secret*
 .apm
+.apmrc
 .node-gyp
 .npm
 blob-store
 dev
 compile-cache
 packages
+recovery
 storage
